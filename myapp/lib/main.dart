@@ -8,7 +8,12 @@ void main() => runApp(
             centerTitle: true,
           ),
           body: Center(
-            child: Text('Body'),
+            child: Text(
+              'Body',
+              style: TextStyle(
+                fontSize: 20.0,
+              ),
+            ),
           ),
           floatingActionButton: FloatingActionButton(
             child: Text('Click'),
